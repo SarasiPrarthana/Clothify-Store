@@ -13,22 +13,22 @@
    <children>
       <ImageView fitHeight="600.0" fitWidth="1000.0" layoutX="-1.0" layoutY="-1.0">
          <image>
-            <Image url="@../images/Blue%20Modern%20Login%20Page%20Desktop%20Prototype.png" />
+            <Image url="@../images/Blue%20Modern%20Login%20Page%20Desktop%20Prototype%20(1).png" />
          </image>
       </ImageView>
-      <TextField fx:id="txtUserNameId" layoutX="626.0" layoutY="336.0" prefHeight="30.0" prefWidth="305.0" />
-      <Text layoutX="626.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name*">
+      <TextField fx:id="txtUserNameId" layoutX="638.0" layoutY="351.0" prefHeight="30.0" prefWidth="305.0" />
+      <Text layoutX="638.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name*">
          <font>
             <Font name="Berlin Sans FB" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="626.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password*">
+      <Text layoutX="638.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password*">
          <font>
             <Font name="Berlin Sans FB" size="14.0" />
          </font>
       </Text>
-      <PasswordField fx:id="txtPasswordId" layoutX="626.0" layoutY="418.0" prefHeight="30.0" prefWidth="305.0" />
-      <Button layoutX="626.0" layoutY="480.0" mnemonicParsing="false" onAction="#btnLoginAction" prefHeight="30.0" prefWidth="305.0" style="-fx-background-color: #d9d19e;" text="LOGIN">
+      <PasswordField fx:id="txtPasswordId" layoutX="638.0" layoutY="433.0" prefHeight="30.0" prefWidth="305.0" />
+      <Button layoutX="638.0" layoutY="495.0" mnemonicParsing="false" onAction="#btnLoginAction" prefHeight="30.0" prefWidth="305.0" style="-fx-background-color: #d9d19e;" text="LOGIN">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

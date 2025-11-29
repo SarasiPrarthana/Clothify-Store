@@ -42,13 +42,11 @@ public class LoginFormController {
             txtPasswordId.clear();
         }
     }
-
     private void showError(String message) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("Login Error");
         alert.setHeaderText(null);
         alert.setContentText(message);
         alert.showAndWait();
-
     }
 }
